@@ -1,0 +1,58 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-1 .ara-profile{
+    flex-basis: 70%;
+}
+.section-1 .links{
+    flex-basis: 30%;
+}
+
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.section-2 .col-1{
+    flex-basis: 70%;
+    display: flex;
+    margin-right: 5px;
+}
+.section-2 .col-1 .text h4{
+    margin-bottom: 1.5rem;
+}
+.section-2 .col-1 .text p{
+    margin-bottom: 2rem;
+}
+.section-2 .col-2{
+    flex-basis: 30%;
+}
+.lists{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-4 form{
+    display: flex;
+    flex-direction: column;
+}
+.section-4 form h2{
+    text-align: center;
+}
+.section-4 form .buttons{
+    display: flex;
+}

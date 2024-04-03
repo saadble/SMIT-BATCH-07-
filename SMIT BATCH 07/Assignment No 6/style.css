@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.banner h1{
+    font-family: New York Extra Large;
+font-size: 54px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+.banner img{
+    width: 100%;
+    height: 900px;
+top: 500px;
+
+}
+.banner p{
+    font-family: SF Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.blog-person-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 640px;
+    border-top: 2px solid black;
+    padding-top: 25px;
+    flex-direction: column;
+}
+.first-person-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.blog-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;    
+}
+.blog-info img{
+    border-radius: 50%;
+}
+.blog-social-icons{
+    display: flex;
+    gap: 20px;
+}
+.blog-social-icons i{
+    width: 20px;
+    height: 19.92px;
+    top: 0.04px;
+    font-size: 24px;
+}
+.blog-para p{
+    font-family: New York Medium;
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.blog-first-image img{
+    width: 854px;
+height: 570px;
+top: 2215px;
+left: 293px;
+
+}
+.blog-first-image p{
+    font-family: SF Pro Text;
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.blog-para ul{
+    text-align: start;
+    font-family: default;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 150px;
+}
+.social-icons .facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.social-icons .facebook p{
+    font-family: SF Pro Text;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 15px;
+
+}
+.social-icons .facebook i{
+    font-size: 24px;
+}
+.tag p{
+    text-align: left;
+    text-align: start;
+
+}
+.tag{
+    width: 100%;
+}
+.blog-person-details hr{
+    color: black;
+    background: black;
+    height: 3px;
+    width: 100%;
+}
+
+.two-circles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.cirlce-borders{
+    border: 1px solid black;
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.black-circle{
+    background: black;
+    width: 20px;
+    height: 30px;
+    right: 1px;
+    bottom: 3px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.line hr{
+    position: absolute;
+    left: 0;
+    z-index: -11111;
+}
+.other-pictures h2{
+    font-family: New York Extra Large;
+font-size: 44px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.gallery{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 30px;
+  gap: 20px;
+}
+.images p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 5px;
+
+    
+}
+.images img{
+    width: 200px;
+}
+.newsletter{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-top: 5px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.newsletter h2{
+    font-family: New York Extra Large;
+font-size: 36px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.newsletter p{
+    font-family: SF Pro Text;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.signup input{
+    padding: 10px;
+    height: 40px;
+    width: 400px;
+}
+.signup-btn{
+    background: black;
+    color: white;
+    /* margin-top: 5px; */
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+.signup-btn p{
+    margin-top: 5px;
+}
+.footer{
+    background: black;
+    color: white;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-details p{
+    font-family: New York Small;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.footer-links a{
+    color: white;
+    font-family: SF Pro Text;
+font-size: 16px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 5px;
+}
+@media (max-width: 720px){
+    .banner h1 {
+        font-family: "New York Extra Large";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: center;
+        line-height: 1.1;
+    }
+    .banner p {
+        font-family: SF Mono;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+        line-height: 1.1;
+    }
+    .banner img {
+        width: 100%;
+        height: 50vh;
+        top: 500px;
+    }
+    .blog-first-image img {
+        width: 100%;
+        height: 30vh;
+        top: 2215px;
+        left: 293px;
+    }
+    .blog-first-image p {
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .gallery {
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px;
+        gap: 20px;
+    }
+    .blog-para ul li{
+        font-size: 14px;
+    }
+    .first-person-blog {
+        display: flex;
+       padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .social-icons .facebook p {
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tags p{
+        font-size: 12px;
+    }
+    .first-person-blog h4{
+        font-size: 14px;
+    }
+    .first-person-blog p{
+        font-size: 10px;
+    }
+    .blog-person-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        border-top: 2px solid black;
+        padding-top: 25px;
+        flex-direction: column;
+    }
+    .newsletter {
+       
+       text-align: justify;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-top: 5px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        width: 320px;
+    }
+    .section-line{
+        width: fit-content;
+    }
+.blog-person-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 2px solid black;
+    padding-top: 25px;
+    flex-direction: column;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px;
+}
+.images img {
+    width: 150px;
+}
+.images p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 5px;
+}
+.newsletter input{
+    font-size: 12px;
+}
+.signup-btn p {
+    margin-top: 5px;
+    font-size: 10px;
+}
+.other-pictures h2 {
+    font-family: New York Extra Large;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.newsletter h1{
+    font-size: 20px;
+}
+.newsletter p{
+    font-size: 14px;
+    
+}
+.signup input {
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+}
+nav .navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
+}
+.blog-para p {
+    font-family: New York Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: justify;
+
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+.footer h4{
+    font-size: 14px;
+}
+.footer h2{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.footer-details p {
+    font-family: New York Small;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.footer-links a {
+    color: white;
+    font-family: SF Pro Text;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 5px;
+}
+}

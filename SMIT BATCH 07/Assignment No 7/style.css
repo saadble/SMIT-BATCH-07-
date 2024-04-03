@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.modify,.design-system,.endless,.teamup,.hero,.crousel,.innovative,.more-data,.notion-today{
+    margin-top: 150px;
+}
+.ul-lists{
+    display: flex;
+}
+.hero-contains{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-contains h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 3rem;
+}
+.hero-contains p{
+    font-size: 1rem;
+}
+.hero-contains button{
+    background: #E16259;
+    outline: 0;
+    border: 0;
+    color: white;
+    width: 160px;
+height: 36px;
+top: 213px;
+padding: 7px, 21px, 9px, 22.2px;
+border-radius: 5px;
+}
+.hero-info-img-txt p{
+    font-size: 0.75rem;
+    color: gray;
+}
+.hero-info-imgs{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.teamup-contains{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teamup-contains h1{
+    color: black;
+    font-weight: 700;
+}
+.teamup-contains p{
+    font-size: 1rem;
+}
+.teamup-img{
+    flex-basis: 65%;
+}
+.teamup-data{
+    flex-basis: 30%;
+}
+.endless-contains{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.endless-info h1{
+    color: black;
+    font-weight: 700;
+}
+.endless-info p{
+    font-size: 1rem;
+}
+.endless-info button{
+    background: #E16259;
+    outline: none;
+    border: none;
+    color: white;
+    width: 143.59px;
+height: 36px;
+top: 153px;
+padding: 7px, 12.8px, 9px, 14px;
+border-radius: 5px;
+
+}
+.design-contains{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 25px;
+}
+.design-info{
+    flex-basis: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.design-info h5{
+    color: black;
+    font-weight: 700;
+}
+.Used-by-teams-at p{
+    color: gray;
+    font-size: 0.75rem;
+    margin-bottom: -5px;
+}
+.Used-by-teams-at img{
+    width: auto;
+}
+.design-img{
+    
+
+    flex-basis: 75%;
+}
+.modify-contains{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modify-info h1{
+    color: black;
+    font-weight: 700;
+}
+.modify-info p{
+    font-size: 1rem;
+}
+.modify-info a{
+    font-weight: 700;
+}
+.modify-templates{
+    display: flex;
+    align-items: center;
+}
+.modify-templates i{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.modify-templates a{
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+.crousel-contains{
+    display: flex;
+    flex-direction: column;
+}
+.crousel-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.crousel-data h6{
+    font-weight: 700;
+}
+.crousal-img-data{
+    display: flex;
+    flex-direction: column;
+}
+.crousal-img-data img{
+    height: 250px;
+}
+
+.crousel-arrows i{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.innovative-contains{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.innovative-info h1{
+    font-weight: 700;
+    color: black;
+}
+.innovative-info a{
+    font-weight: 700;
+    font-size: 1rem;
+    
+        color: black;
+        text-decoration: none;
+        align-items: center;
+        display: flex;
+    
+}
+.innovative-info i{
+    color: black;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.more-contains{
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.more1{
+    max-height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.more-personal-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more-text{
+    height: 120px;
+}
+.more1 h1{
+    font-size: 1rem;
+    line-height: 1px;
+    margin-top: 15px;
+}
+.more1 p{
+    font-size: 0.75rem;
+}
+.notion-today-contains{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.notion-info h1{
+    font-weight: 700;
+    color: black;
+    margin-bottom: -5px;
+}
+.notion-info p{
+    color: black;
+}
+.notion-info button{
+    background: #E16259;
+    outline: none;
+    border: none;
+    color: white;
+    width: 240px;
+height: 36px;
+left: 537.72px;
+padding: 7px, 61px, 9px, 62.2px;
+border-radius: 5px;
+
+}
+.notion-info p a{
+    color: black;
+    text-decoration: underline;
+}
+.notion-img{
+    position: absolute;
+    z-index: -1;
+    margin-left: -950px;
+    margin-top: 300px;
+}
+.footer{
+    margin-top: 250px;
+}
+.footer-contains{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-col-logo{
+    display: flex;
+    margin-top: -15px;
+    align-items: center;
+}
+.footer-col-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col-logo img{
+    width: 28.02px;
+height: 29.17px;
+top: 0.42px;
+left: 4.75px;
+
+}
+.footer-col-logo p{
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+.footer-col-2 h4{
+    font-size: 1rem;
+    color: black;
+}
+.footer-col-2 a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: gray;
+}
+.footer-end-contains{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-end-left{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cookie{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.lang p{
+    margin-top: 15px;
+}
+.lang i{
+    color: black;
+    font-size: 1.25rem;
+    margin-left: -10px;
+    font-weight: 700;
+}
+.copy-right{
+    margin-top: 15px;
+    color: black;
+}
+.footer-end-right i{
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+@media (max-width: 720px){
+    .hero-contains h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        color: black;
+        font-size: 1.5rem;
+    }
+    .hero-info-imgs img{
+        width: 50px;
+    }
+    .hero-image img{
+        width: 160px;
+        height: 100px;
+        position: absolute;
+        margin-left: -150px;
+        margin-top: -70px;
+        z-index: -1;
+    }
+    .hero-contains button {
+        background: #E16259;
+        outline: 0;
+        border: 0;
+        color: white;
+        width: 100px;
+        height: 30px;
+        top: 213px;
+        padding: 7px, 21px, 9px, 22.2px;
+        border-radius: 5px;
+        font-size: 0.75rem;
+    }
+    .hero-contains p {
+        font-size: 0.75rem;
+    }
+    .teamup-contains {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .teamup-data {
+        flex-basis: 20%;
+        display: flex;
+        align-items: center;
+    }
+    .teamup-contains h1 {
+        color: black;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .teamup-contains p {
+        font-size: 0.75rem;
+    }
+    .teamup-data img{
+        width: 80px;
+    }
+    .endless-info h1 {
+        color: black;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .endless-info p {
+        font-size: 0.75rem;
+    }
+    .endless-info button {
+        background: #E16259;
+        outline: none;
+        border: none;
+        color: white;
+        width: 120px;
+        height: 25px;
+        top: 153px;
+        padding: 7px, 12.8px, 9px, 14px;
+        border-radius: 5px;
+        font-size: 0.75rem;
+    }
+    .endless-img img{
+        width: 150px;
+        margin-left: 25px;
+    }
+    .design-contains {
+        display: flex;
+        /* flex-direction: column; */
+        /* align-items: center; */
+        justify-content: space-between;
+        gap: 25px;
+    }
+    .design-info h5 {
+        color: black;
+        font-weight: 700;
+        font-size: 0.75rem;
+    }
+    .Used-by-teams-at p {
+        color: gray;
+        font-size: 0.65rem;
+        margin-bottom: -5px;
+    }
+    .design-img img{
+        width: 300px;
+        height: 300px;
+    }
+    .Used-by-teams-at img {
+        width: 90px;
+    }
+    .modify-info h1 {
+        color: black;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .modify-info p {
+        font-size: 0.75rem;
+    }
+    .modify-templates a {
+        color: black;
+        text-decoration: none;
+        align-items: center;
+        display: flex;
+        font-size: 0.75rem;
+    }
+    .modify-templates a i{
+        font-size: 0.75rem;
+    }
+    .modify-img img{
+        width: 150px;
+    }
+    .crousel-data {
+        display: flex;
+        flex-direction: column  ;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    .crousel-data h6 {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .crousel-arrows i {
+        font-weight: 700;
+        font-size: 0.75rem;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+    .innovative-info h1 {
+        font-weight: 700;
+        color: black;
+        font-size: 1rem;
+    }
+    .innovative-img img{
+        width: 150px;
+    }
+    .innovative-info a {
+        font-weight: 700;
+        font-size: 0.75rem;
+        color: black;
+        text-decoration: none;
+        align-items: center;
+        display: flex;
+    }
+    .innovative-info a i{
+        font-size: 0.75rem;
+    }
+    .more-contains {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        justify-content: center;
+        padding-left: 0px;
+        gap: 50px;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+    }
+    .more-personal-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -50px;
+    }
+    .more-avatar img{
+        width: 40px;
+        margin-right: 5px;
+    }
+    .more1 h1 {
+        font-size: 0.75rem;
+        line-height: 1px;
+        margin-top: 15px;
+    }
+    .more1 p {
+        font-size: 0.65rem;
+    }
+    .notion-logo img{
+        width: 70px;
+    }
+    .notion-info h1 {
+        font-weight: 700;
+        color: black;
+        margin-bottom: 0px;
+        font-size: 1rem;
+    }
+    .notion-info p {
+        color: black;
+        font-size: 0.75rem;
+    }
+    .notion-info button {
+        background: #E16259;
+        outline: none;
+        border: none;
+        color: white;
+        width: 150px;
+        height: 25px;
+        left: 537.72px;
+        padding: 7px, 61px, 9px, 62.2px;
+        border-radius: 5px;
+        font-size: 0.75rem;
+    }
+    .footer-contains {
+        display: grid;
+        align-items: flex-start;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 50px   ;
+    }
+    .footer-end-contains p{
+        font-size: 0.75rem;
+    }
+    .lang i{
+        font-size: 0.75rem;
+        margin-right: -5px;
+    }
+    .cookie{
+        display: flex;
+    }
+    .footer-end-contains {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .modify,.design-system,.endless,.teamup,.hero,.crousel,.innovative,.more-data,.notion-today,.footer{
+        margin-top: 100px;
+    }
+}
